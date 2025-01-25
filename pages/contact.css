@@ -1,0 +1,49 @@
+.Main{
+}
+.header{
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+    background-color: aliceblue;
+}
+.logo{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:x-large;
+    color: red;
+}
+.section{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.ouroffice{
+    width:22% ;
+    background-color: aliceblue;
+    margin-top: 3%;
+    align-content: center;
+    height:200px ;
+    border: 1px solid black;
+    text-align: center;
+} 
+.contect-us{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.contect{
+    border: 1px solid black;
+
+}
+.contect form label{
+         margin-top: 20px;
+        width: 100%;
+ }
+ .contect form input{
+    margin-top: 50px;
+    width: 100%;
+ }
